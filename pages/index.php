@@ -7,7 +7,7 @@ function coreSettings()
         <div class="container text-center">
             <div class="row">
                 <div class="col-12">
-                    Column
+                    <img class="col-12" src="../assets/images/logo.png">
                 </div>
             </div>
             <div class="row">
