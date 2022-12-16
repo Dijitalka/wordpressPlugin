@@ -7,7 +7,7 @@ function coreSettings()
         <div class="container text-center p-5">
             <div class="row">
                 <div class="col-12">
-                    <img class="col-12" src="<?= __FILE__?>assets/images/logo.png">
+                    <img class="col-12" src="https://dijitalka.com/wp-content/uploads/2022/05/3-300x114.png">
                 </div>
             </div>
             <div class="row">
