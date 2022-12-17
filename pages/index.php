@@ -13,6 +13,9 @@ function coreSettings()
             input.transparent-input{
                 background-color:transparent !important;
                 border:none !important;
+                border-bottom-style:solid !important;
+                border-color: orange ;
+
             }
         </style>
         <div class="container p-5 text-center">
