@@ -8,9 +8,10 @@ function coreSettings()
             body
             {
                 background-color: black ; !important;
+                color: white;
             }
         </style>
-        <div class="container text-center p-5 text-center">
+        <div class="container p-5 text-center">
             <div class="row">
                 <div class="col-12">
                     <img src="https://dijitalka.com/wp-content/uploads/2022/05/3-300x114.png">
