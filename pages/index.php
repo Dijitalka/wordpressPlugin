@@ -21,6 +21,20 @@ function coreSettings()
                     <img src="https://dijitalka.com/wp-content/uploads/2022/05/3-300x114.png">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">Site URL</span>
+                        <input type="text" class="form-control" name="siteURL" placeholder="Site URL" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">TOKEN</span>
+                        <input type="text" class="form-control" placeholder="TOKEN" name="token" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+            </div>
         </div>
     <?php
 }
