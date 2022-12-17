@@ -10,6 +10,10 @@ function coreSettings()
                 background-color: black ; !important;
                 color: white;
             }
+            input{
+                background-color: black;
+                color: white;
+            }
         </style>
         <div class="container p-5 text-center">
             <div class="row">
@@ -20,12 +24,10 @@ function coreSettings()
             <div class="row">
                 <div class="col-6">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dijitalka sistemlerinden aldığınız token değeri">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Dijitalka sistemlerine bağlanmamız için url">
                     </div>
                 </div>
                 <div class="col-6">
