@@ -12,29 +12,31 @@ function coreSettings()
             }
             input.transparent-input{
                 background-color:transparent !important;
-                border:none !important;
                 border-bottom-style:solid !important;
-                border-color: orange ;
-
+                border-color: #E6A822 ;
+            }
+            .input:focus {
+                outline: none !important;
+            }
+            input[type=text]:focus {
+                border: 3px solid #bdbdbd;
             }
         </style>
         <div class="container p-5 text-center">
             <div class="row">
                 <div class="col-12">
-                    <img src="https://dijitalka.com/wp-content/uploads/2022/05/3-300x114.png">
+                    <img src="<?= get_site_url()?>/wp-content/plugins/dijitalka/assets/image/logo.png">
                 </div>
             </div>
             <div class="row">
                 <div class="col-6">
                     <div class="input-group flex-nowrap ">
-                        <span class="input-group-text" id="addon-wrapping">Site URL</span>
-                        <input type="text" class="form-control transparent-input" name="siteURL" placeholder="Site URL" aria-label="Username" aria-describedby="addon-wrapping">
+                        <input type="text" class="form-control transparent-input text-white" name="siteURL" placeholder="Site URL" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">TOKEN</span>
-                        <input type="text" class="form-control transparent-input" placeholder="TOKEN" name="token" aria-label="Username" aria-describedby="addon-wrapping">
+                        <input type="text" class="form-control transparent-input text-white" placeholder="TOKEN" name="token" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                 </div>
             </div>

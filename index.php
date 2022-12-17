@@ -30,7 +30,7 @@ function core(){
 		     uLink VARCHAR(500) NOT NULL,
 		     paylasim VARCHAR(500) NOT NULL,
 		     durum VARCHAR(500) DEFAULT 1 NOT NULL
-		      UNIQUE KEY id (id))$charset";
+		     UNIQUE KEY id (id)) $charset ";
 		 require_once ABSPATH."wp-admin/includes/upgrade.php";
 		 dbDelta($sql);
 	}
