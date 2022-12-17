@@ -10,9 +10,9 @@ function coreSettings()
                 background-color: black ; !important;
                 color: white;
             }
-            input{
-                background-color: black;
-                color: white;
+            input.transparent-input{
+                background-color:transparent !important;
+                border:none !important;
             }
         </style>
         <div class="container p-5 text-center">
